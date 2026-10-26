@@ -3,14 +3,12 @@
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Architecture](https://img.shields.io/badge/Architecture-MVC-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Google OAuth](https://img.shields.io/badge/Auth-Google%20OAuth-blue?logo=google)
 
 **BendeharaKu** adalah aplikasi manajemen keuangan kelas berbasis web dengan desain premium modern. Dibangun menggunakan pola arsitektur **Model-View-Controller (MVC)**, aplikasi ini membantu bendahara kelas mencatat iuran, pemasukan, dan pengeluaran secara transparan, akuntabel, dan sistematis — lengkap dengan dukungan **Google Sign-In**.
 
 ---
 
-## 🖼️ Preview Antarmuka
+## Preview Antarmuka
 
 <table>
   <tr>
@@ -27,7 +25,7 @@
 
 ---
 
-## 📌 Deskripsi Project
+## Deskripsi Project
 
 BendeharaKu memisahkan logika bisnis, antarmuka pengguna, dan akses database demi kode yang bersih dan mudah dikembangkan.
 
@@ -38,7 +36,7 @@ BendeharaKu memisahkan logika bisnis, antarmuka pengguna, dan akses database dem
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer        | Teknologi                                            |
 | ------------ | ---------------------------------------------------- |
@@ -52,48 +50,37 @@ BendeharaKu memisahkan logika bisnis, antarmuka pengguna, dan akses database dem
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
-### 🔐 Autentikasi & Otorisasi
-
-- **Login & Register** — Sistem masuk dengan NIS + password.
-- **Google Sign-In** — Login cepat menggunakan akun Google (OAuth 2.0).
-- **Role-based Access** — Admin dan siswa memiliki akses fitur yang berbeda.
-
-### 📊 Dashboard
+### Dashboard
 
 - Ringkasan total saldo, total pemasukan, total pengeluaran.
 - Grafik statistik transaksi bulanan.
 - Informasi pembayaran iuran terbaru.
 
-### 👥 Manajemen Siswa (Admin)
+### Manajemen Siswa (Admin)
 
 - CRUD data siswa (nama, NIS, nomor HP).
 - Pencarian siswa berdasarkan nama atau NIS.
 - Floating action button untuk tambah data di mobile.
 
-### 💰 Pemasukan & Pengeluaran
+### Pemasukan & Pengeluaran
 
 - Catat dan kelola data pemasukan dari berbagai sumber.
 - Catat pengeluaran beserta bukti foto/dokumen.
 - Filter berdasarkan tahun.
 - Ekspor ke Spreadsheet (Excel).
 
-### 📋 Laporan Kas
+### Laporan Kas
 
 - Rekapitulasi pembayaran iuran mingguan per siswa per bulan.
 - Filter berdasarkan bulan dan status pembayaran.
 - Ekspor laporan ke Spreadsheet.
 - Admin dapat mengedit/hapus data langsung dari tabel.
 
-### 👤 Profil Pengguna
-
-- Lihat dan edit data profil (nama, email, foto profil).
-- Update nomor kontak.
-
 ---
 
-## 📁 Struktur Folder
+## Struktur Folder
 
 ```text
 bendeharaKu/
@@ -124,7 +111,7 @@ bendeharaKu/
 
 ---
 
-## ⚙️ Instalasi & Setup
+## Instalasi & Setup
 
 ### 1. Clone Repository
 
@@ -165,25 +152,3 @@ Buka browser dan akses:
 ```
 http://localhost/bendeharaKu/public/
 ```
-
----
-
-## 🤝 Kontribusi
-
-Aplikasi ini bersifat open-source.
-
-1. Fork repository ini.
-2. Buat branch fitur (`git checkout -b fitur-baru`).
-3. Commit perubahan (`git commit -m 'Tambah fitur X'`).
-4. Push ke branch (`git push origin fitur-baru`).
-5. Buat Pull Request.
-
----
-
-## 📄 Lisensi
-
-Project ini dilisensikan di bawah **MIT License**.
-
----
-
-_© 2026 BendeharaKu — Hak cipta milik pengembang [Raditt10](https://github.com/Raditt10)._
